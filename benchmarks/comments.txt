@@ -1,0 +1,9 @@
+Observations:
+1. The fastest function is Fibonacci with loop, which is double the speed of the tail recursive version and may
+orders of magnitude faster than the recrusive version.
+
+2. The (non-tail) recrusive version is the slowest, which is expected, since every function
+call requires a new stack frame to be created.
+
+3. Since the debug disables optimisation. All three functions in release builds are
+faster.
